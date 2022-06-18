@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_uJEXXnAVUifHXwc4",
+        "type": "tab",
+        "createdDate": "2022-06-17T11:15:52.734Z",
+        "label": "Section1",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "Section1Component"
+    },
+    {
+        "id": "sd_vIF1IKzk91V04Q0n",
+        "type": "OnInit",
+        "z": "sd_uJEXXnAVUifHXwc4",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_vIF1IKzk91V04Q0n",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_p3lm6lMv2BCPhBUc"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "Section1Component"
+    },
+    {
+        "id": "sd_p3lm6lMv2BCPhBUc",
+        "type": "PageVariables",
+        "z": "sd_uJEXXnAVUifHXwc4",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "section1",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
+        "functionName": "sd_p3lm6lMv2BCPhBUc",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_5vvzY8l1OW8XTjPi"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_5vvzY8l1OW8XTjPi",
+        "type": "Script",
+        "z": "sd_uJEXXnAVUifHXwc4",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.section1=[\"About\", \"Services\",\"Project\", \"Contact\"]",
+        "functionName": "sd_5vvzY8l1OW8XTjPi",
+        "category": "Function",
+        "x": 320,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

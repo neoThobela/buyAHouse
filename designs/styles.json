@@ -1,0 +1,32 @@
+{
+    "classes": [
+        "greyText",
+        "whiteText",
+        "backgroundWhite",
+        "whitebg",
+        "witdth50",
+        "font3em",
+        "textAlignCenter",
+        "blackText",
+        "redBtn",
+        "mat-button",
+        "fontBold",
+        "backgroundImage",
+        "qoutesIcon",
+        "padding60",
+        "blackbg",
+        "fontSize4em",
+        "fontSize2em",
+        "peoplesImages",
+        "margin-bottom",
+        "mat-form-field-appearance-outline",
+        "mat-form-field-flex",
+        "border-radius50",
+        "width90",
+        "width70",
+        "paddingall80",
+        "width100",
+        "padding49",
+        "font25em"
+    ]
+}

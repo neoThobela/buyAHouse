@@ -1,0 +1,70 @@
+<div fxLayout="column wrap" class="whiteText backgroundImage" fxLayoutGap="50px" fxLayoutAlign="start stretch" [fxShow]="true">
+  <div fxLayout="row wrap" fxFlex="40px" fxLayoutAlign="space-around center" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true">
+      <h1>
+        VEEZA</h1>
+    </div>
+    <div fxLayout="column wrap" fxFlex="40" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let nav of page.section1">
+          <div>
+            {{nav}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="column wrap" class="redBtn border-radius50" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="redBtn whiteText">Get Started</button></div>
+  </div>
+  <div fxLayout="row wrap" fxLayoutAlign="center space-around" [fxShow]="true">
+    <div fxLayout="column wrap" fxLayoutGap="2em" fxLayoutAlign="center center" [fxShow]="true">
+      <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+        <h1 class="textAlignCenter font3em">
+          The Smartest Way To Buy a House</h1>
+      </div>
+      <div fxLayout="row wrap" class="textAlignCenter width70" fxLayoutAlign="center stretch" [fxShow]="true">
+        <p class="textAlignCenter">
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true"></div>
+      <div fxLayout="row wrap" class="margin-bottom whitebg" fxLayoutAlign="center stretch" [fxShow]="true">
+        <div fxLayout="column wrap" class="blackText" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div>
+              location</div>
+            <mat-icon>home</mat-icon>
+          </div>
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div class="greyText">
+              location</div>
+          </div>
+        </div>
+        <div fxLayout="column wrap" class="blackText" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div>
+              location</div>
+            <mat-icon>home</mat-icon>
+          </div>
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div class="greyText">
+              location</div>
+          </div>
+        </div>
+        <div fxLayout="column wrap" class="blackText" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div>
+              location</div>
+            <mat-icon>home</mat-icon>
+          </div>
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div class="greyText">
+              location</div>
+          </div>
+        </div>
+        <div fxLayout="column " fxLayoutAlign="center stretch" [fxShow]="true">
+          <mat-icon class="blackText">search</mat-icon>
+        </div>
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"></div>
+      </div>
+    </div>
+  </div>
+</div>

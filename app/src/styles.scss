@@ -1,0 +1,128 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Lato:wght@700&family=Lobster&family=Noto+Sans:ital@1&family=Poppins:wght@200;300;500;700&family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;600&display=swap');
+
+$red:#ea4e63;
+$white:white;
+$black:black;
+$backgroundWhite:#f8f9fd;
+$gray:#8e8e90;
+
+*{
+font-family: 'Varela Round', sans-serif;
+    margin:0;
+    padding:0;
+}
+bh-home{
+    width:100%
+}
+body{
+        font-family: 'Bona Nova', serif;
+}
+.greyText{
+    color:$gray;
+    font-weight:100;
+}
+.whiteText{
+    color:$white;
+}
+.backgroundWhite{
+    background-color:$backgroundWhite;
+    padding: 20px;
+    
+}
+.whitebg{
+    background-color:$white;
+    width: 60%;
+    height: 57px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+   
+}
+.witdth50{
+    width: 50%;
+}
+.font3em{
+    font-size:3em;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.blackText{
+    color:$black;
+}
+.redBtn{
+    background-color: $red;
+}
+.mat-button{
+ border-radius: 21px !important;
+}
+.fontBold{
+    font-weight: bold;
+}
+.backgroundImage{
+    background-image: url("https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/small-house-on-lake-photo-6684-38e69e490e2785e462f0b1621a3d8749@1x.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding:10px 20px 77px 10px;
+}
+.qoutesIcon{
+    color:#ec4c5f;
+    height: 45px!important;
+    width: 52px!important;
+}
+.padding60{
+    padding-bottom:60px;
+}
+// span{
+//     color:#ec4c5f;
+// }
+.blackbg{
+    background-color:$black;
+}
+.fontSize4em{
+font-size:4em;
+}
+.fontSize2em{
+font-size:2em;
+}
+.peoplesImages{
+    border-radius:50%;
+    height:70px;
+    width:70px;
+}
+.margin-bottom{
+    margin-bottom:30px;
+}
+.mat-form-field-appearance-outline .mat-form-field-flex {
+    background-color: white;
+    width: 518px;
+    border-radius: 30px;
+}
+.border-radius50{
+    border-radius:50%;
+}
+.width90{
+    width:90%
+}
+.width70{
+    width:70%
+}
+.witdth50{
+    width:50%;
+}
+.paddingall80{
+    padding:80px;
+}
+.width100{
+    width:100%;
+}
+.padding49{
+    padding: 49px;
+}
+.font25em{
+    font-size:2.5em;
+}
