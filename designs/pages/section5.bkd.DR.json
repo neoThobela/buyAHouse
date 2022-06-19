@@ -259,6 +259,18 @@
                             "_value": "",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "ngStyle.xs",
+                            "_value": "width:40px",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "ngClass.xs",
+                            "_value": "height40px",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ]
                 }

@@ -122,6 +122,12 @@
                     "_value": "true",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "fxLayout.xs",
+                    "_value": "column",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "138d94c3-e349-eeef-a5f6-042c8fcd1bd9": {
@@ -871,7 +877,6 @@
                     "1f1b93ad-8a2a-8986-c300-92a2eee3959b": {
                         "paletteKey": "NG-image",
                         "parentEditorKey": "f18b6544-4c77-34cd-c145-b5e1337e7ddb",
-                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {

@@ -120,6 +120,18 @@
                     "_value": "true",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "fxLayout.xs",
+                    "_value": "column",
+                    "_type": "kv",
+                    "_attrDef": "c"
+                },
+                {
+                    "_key": "ngStyle.xs",
+                    "_value": "width:90%",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "37c6419f-d417-d5de-7c93-b79bad89c042": {
@@ -809,7 +821,6 @@
             "649556aa-3b90-3c53-9de3-88f81d88ee2b": {
                 "paletteKey": "NG-image",
                 "parentEditorKey": "d89773a8-9937-91de-c589-2c69d3c72905",
-                "isCommented": "false",
                 "commentid": null,
                 "designerReference": [
                     {

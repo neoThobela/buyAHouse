@@ -59,6 +59,12 @@
                 "_value": "true",
                 "_type": "kv",
                 "_attrDef": "p"
+            },
+            {
+                "_key": "ngStyle.xs",
+                "_value": "padding:20px;",
+                "_type": "kv",
+                "_attrDef": "c"
             }
         ],
         "e89d743a-1c2e-223c-79f6-5932c496dae6": {
@@ -122,6 +128,18 @@
                     "_value": "true",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "ngStyle.xs",
+                    "_value": "width:100%",
+                    "_type": "kv",
+                    "_attrDef": "c"
+                },
+                {
+                    "_key": "fxLayoutAlign.xs",
+                    "_value": "center center",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "a0f986d3-b7aa-b501-cb92-cacee392eba9": {
@@ -312,6 +330,12 @@
                         "_type": "kv",
                         "_attrDef": "p",
                         "_visibility": false
+                    },
+                    {
+                        "_key": "ngStyle.xs",
+                        "_value": "width:90%",
+                        "_type": "kv",
+                        "_attrDef": "c"
                     }
                 ],
                 "c6e1e081-480f-ca0d-91dd-584b9f8f514b": {

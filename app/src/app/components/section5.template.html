@@ -1,6 +1,6 @@
 <div fxLayout="column wrap" class="padding60 width100" fxLayoutGap="1em" fxLayoutAlign="center center" [fxShow]="true">
   <div fxLayout="row wrap" class="width70" fxLayoutAlign="space-between center" [fxShow]="true">
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let images of page.section5.images"><img imgSrc="{{images}}" class="peoplesImages"></div>
+    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let images of page.section5.images"><img imgSrc="{{images}}" ngStyle.xs="width:40px" ngClass.xs="height40px" class="peoplesImages"></div>
   </div>
   <h2 class="fontSize2em textAlignCenter witdth50">
     <!-- Trusted by over 150+ organziations in more than  50 countries -->{{page.section5.heading}}

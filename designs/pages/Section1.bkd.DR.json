@@ -1751,7 +1751,7 @@
                         },
                         {
                             "_key": "fxLayoutGap",
-                            "_value": "",
+                            "_value": "10PX",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
