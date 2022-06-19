@@ -64,7 +64,7 @@ export class Section1Component {
 
   sd_p3lm6lMv2BCPhBUc(bh) {
     try {
-      this.page.section1 = [];
+      this.page.section1 = undefined;
       bh = this.sd_5vvzY8l1OW8XTjPi(bh);
       //appendnew_next_sd_p3lm6lMv2BCPhBUc
       return bh;
@@ -76,17 +76,22 @@ export class Section1Component {
   sd_5vvzY8l1OW8XTjPi(bh) {
     try {
       const page = this.page; // page.section1=["About", "Services","Project", "Contact"]
-      page.section1 = [
-        {
-          logo: 'https://linkedinreplication.web.app/assets/Web/Images/post.jpg',
-          navItems: ['About', 'Services', 'Project', 'Contact'],
-          backgroundImage:
-            'https://linkedinreplication.web.app/assets/Web/Images/post.jpg',
-          heading: 'loremwehfuewuf',
-          content: 'hfhwhfkwe hfewfewkfk',
-          belowContent: 'ufehhwefk efiejwkf fjewijf',
+      page.section1 = {
+        logo: 'https://linkedinreplication.web.app/assets/Web/Images/post.jpg',
+        navItems: ['About', 'Services', 'Project', 'Contact'],
+        backgroundImage:
+          'https://linkedinreplication.web.app/assets/Web/Images/post.jpg',
+        heading: 'The Smartest Way To Buy a House',
+        content:
+          'It was popularised in sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem.',
+        searchBar: {
+          title: 'Location',
+          icon: 'place',
+          info: 'Find destination',
         },
-      ];
+        belowContent: 'ufehhwefk efiejwkf fjewijf',
+      };
+
       //appendnew_next_sd_5vvzY8l1OW8XTjPi
       return bh;
     } catch (e) {

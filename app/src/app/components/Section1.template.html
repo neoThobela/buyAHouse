@@ -6,9 +6,9 @@
     </div>
     <div fxLayout="column wrap" fxFlex="40" fxLayoutAlign="start stretch" [fxShow]="true" fxHide.xs="true">
       <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let nav of page.section1">
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let nav of page.section1.navItems ">
           <div>
-            {{nav.navItems}}
+            {{nav}}
           </div>
         </div>
       </div>
@@ -21,44 +21,46 @@
     <div fxLayout="column wrap" fxLayoutGap="2em" fxLayoutAlign="center center" [fxShow]="true">
       <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
         <h1 ngStyle.xs="font-size:2em" class="textAlignCenter font3em">
-          The Smartest Way To Buy a House</h1>
+          <!-- The Smartest Way To Buy a House -->{{page.section1.heading}}
+        </h1>
       </div>
-      <div fxLayout="row wrap" class="textAlignCenter width70" fxLayoutAlign="center stretch" [fxShow]="true">
-        <p class="width70 textAlignCenter">
-          It was popularised in sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div fxLayout="row wrap" class="textAlignCenter width70" fxLayoutAlign="center stretch" [fxShow]="true" ngClass.xs="width100">
+        <p ngClass.xs="width100" class="width70 textAlignCenter">
+          <!-- It was popularised in sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. -->{{page.section1.content}}
+        </p>
       </div>
-      <div fxLayout="row wrap" class="margin-bottom whitebg" fxLayoutAlign="center stretch" [fxShow]="true">
+      <div fxLayout="row wrap" class="margin-bottom whitebg" fxLayoutAlign="center stretch" [fxShow]="true" fxLayout.xs="column" ngStyle.xs="   border-radius: 0px;">
         <div fxLayout="column wrap" class="blackText" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true">
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
             <div>
               location</div>
-            <mat-icon>home</mat-icon>
+            <mat-icon class="font1em">place</mat-icon>
           </div>
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
             <div class="greyText">
-              location</div>
+              Find destination</div>
           </div>
         </div>
         <div fxLayout="column wrap" class="blackText" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true">
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
             <div>
-              location</div>
-            <mat-icon>home</mat-icon>
+              Budget</div>
+            <mat-icon class="font1em">local_offer</mat-icon>
           </div>
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
             <div class="greyText">
-              location</div>
+              Choose your budget</div>
           </div>
         </div>
         <div fxLayout="column wrap" class="blackText" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true">
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
             <div>
-              location</div>
-            <mat-icon>home</mat-icon>
+              Type of home</div>
+            <mat-icon class="font1em">home</mat-icon>
           </div>
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
             <div class="greyText">
-              location</div>
+              Apartment</div>
           </div>
         </div>
         <div fxLayout="column " fxLayoutAlign="center stretch" [fxShow]="true">

@@ -37,7 +37,7 @@ body{
 .whitebg{
     background-color:$white;
     width: 60%;
-    height: 57px;
+    // height: 57px;
     border-radius: 25px;
     text-align: center;
     padding: 10px;
@@ -67,11 +67,14 @@ body{
 .padding29{
     padding:10px;
 }
+.heightImage{
+    height:330px;
+}
 .backgroundImage{
-    background-image: url("https://cdn.pixabay.com/photo/2017/04/11/03/33/dinant-2220459_960_720.jpg");
+    background-image: url("https://media.product.which.co.uk/prod/images/original/gm-384a170f-ac56-40fb-95ce-4290b16f1125-london-houses-1.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
-padding:10px 20px 77px 10px;
+padding:10px 10px 150px 10px;
 }
 .qoutesIcon{
     color:#ec4c5f;
@@ -84,6 +87,9 @@ padding:10px 20px 77px 10px;
 // span{
 //     color:#ec4c5f;
 // }
+.font1em{
+    font-size: 1em;
+}
 .blackbg{
     background-color:$black;
 }
@@ -93,10 +99,30 @@ font-size:4em;
 .fontSize2em{
 font-size:2em;
 }
+.officeBg{
+    background-image: url("https://images.adsttc.com/media/images/5e74/f376/b357/6549/2a00/055c/large_jpg/Ben_Hosking.jpg?1584722798");
+    background-repeat: no-repeat;
+     background-size: cover;
+    height:300px;
+
+}
+.kitchenbg{
+    background-image: url("https://www.build-review.com/wp-content/uploads/2021/03/kitchen-article.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px; 
+}
+.bedroomBg{
+     background-image: url("https://jane-athome.com/wp-content/uploads/2020/12/Pure-Salt-bedroom.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
 .peoplesImages{
     border-radius:50%;
-    height:70px;
-    width:70px;
+    height:80px;
+    width:80px;
 }
 .margin-bottom{
     margin-bottom:30px;

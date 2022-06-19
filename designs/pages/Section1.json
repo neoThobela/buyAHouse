@@ -45,7 +45,7 @@
                 "textIp": "section1",
                 "typedIpValue": {
                     "type": "literal",
-                    "value": "[]"
+                    "value": ""
                 }
             }
         ],
@@ -69,7 +69,7 @@
         "viewType": "common",
         "nodeType": "flow",
         "name": "",
-        "script": "// page.section1=[\"About\", \"Services\",\"Project\", \"Contact\"]\n page.section1=[{\n        \"logo\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"navItems\":[\"About\", \"Services\",\"Project\", \"Contact\"],\n        \"backgroundImage\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"heading\":\"loremwehfuewuf\",\n        \"content\":\"hfhwhfkwe hfewfewkfk\",\n        \"belowContent\":\"ufehhwefk efiejwkf fjewijf\"\n    }\n    ]",
+        "script": "// page.section1=[\"About\", \"Services\",\"Project\", \"Contact\"]\n page.section1={\n        \"logo\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"navItems\":[\"About\", \"Services\",\"Project\", \"Contact\"],\n        \"backgroundImage\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"heading\":\"The Smartest Way To Buy a House\",\n        \"content\":\"It was popularised in sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem.\",\n         \"searchBar\":{\n             \"title\":\"Location\",\n             \"icon\":\"place\",\n              \"info\":\"Find destination\"\n         },\n        \"belowContent\":\"ufehhwefk efiejwkf fjewijf\"\n    }\n    ",
         "functionName": "sd_5vvzY8l1OW8XTjPi",
         "category": "Function",
         "x": 320,

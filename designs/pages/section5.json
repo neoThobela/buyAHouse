@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "section5",
+                "typedIpValue": {
+                    "type": "bh",
+                    "value": ""
+                }
+            }
+        ],
         "functionName": "sd_9P5wqmpfmAT48fLX",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_Hr8CUKBpbcdU4Qs2"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_Hr8CUKBpbcdU4Qs2",
+        "type": "Script",
+        "z": "sd_Z28IuFe765YYjws5",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.section5={\n\"images\":[\"/Web/Images/face1.jpg\",\"/Web/Images/face2.jpg\",\n\"/Web/Images/face3.jpg\",\"/Web/Images/face4.jpg\",\"/Web/Images/face5.jpg\"\n,\"/Web/Images/face6.jpg\",\"/Web/Images/face7.jpg\",\"/Web/Images/face8.jpg\",\"/Web/Images/face9.jpg\"]\n,\"heading\":\"Trusted by over 150+ organziations in more than 50 countries\",\n\"icon\":\"format_quote\",\n\"paragraph\":\". It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\"\n}",
+        "functionName": "sd_Hr8CUKBpbcdU4Qs2",
+        "category": "Function",
+        "x": 320,
+        "y": 40,
         "wires": [
             []
         ],

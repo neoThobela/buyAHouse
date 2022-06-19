@@ -595,7 +595,7 @@
                             },
                             {
                                 "_key": "*ngFor",
-                                "_value": "let nav of page.section1",
+                                "_value": "let nav of page.section1.navItems ",
                                 "_type": "kv",
                                 "_attrDef": "c"
                             }
@@ -807,7 +807,7 @@
                                     },
                                     {
                                         "_key": "html",
-                                        "_value": "{{nav.navItems}}",
+                                        "_value": "{{nav}}",
                                         "_type": "a",
                                         "_attrDef": "p"
                                     }
@@ -883,7 +883,6 @@
                 "3f091e88-64b7-45b6-bc57-912c418fd5e3": {
                     "paletteKey": "NG-button",
                     "parentEditorKey": "d67aa3fb-6e35-a3f1-ea2f-fb1796c3847b",
-                    "isCommented": "false",
                     "commentid": null,
                     "designerReference": [
                         {
@@ -1415,7 +1414,7 @@
                                 },
                                 {
                                     "_key": "html",
-                                    "_value": "The Smartest Way To Buy a House",
+                                    "_value": "<!-- The Smartest Way To Buy a House -->{{page.section1.heading}}",
                                     "_type": "a",
                                     "_attrDef": "p"
                                 }
@@ -1485,6 +1484,12 @@
                             "_value": "true",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "ngClass.xs",
+                            "_value": "width100",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "8ec72957-4f73-75bc-83eb-d104b980dfde": {
@@ -1675,6 +1680,12 @@
                                 "_type": "kv",
                                 "_attrDef": "p",
                                 "_visibility": false
+                            },
+                            {
+                                "_key": "ngClass.xs",
+                                "_value": "width100",
+                                "_type": "kv",
+                                "_attrDef": "c"
                             }
                         ],
                         "a2550090-ad9b-bb3e-e54a-f1257c091d86": {
@@ -1697,7 +1708,7 @@
                                 },
                                 {
                                     "_key": "html",
-                                    "_value": "It was popularised in sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                                    "_value": "<!-- It was popularised in sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. -->{{page.section1.content}}",
                                     "_type": "a",
                                     "_attrDef": "p"
                                 }
@@ -1767,6 +1778,18 @@
                             "_value": "true",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxLayout.xs",
+                            "_value": "column",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "ngStyle.xs",
+                            "_value": "   border-radius: 0px;",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "2befdaa7-05e5-fff6-8f4b-f688192d59d0": {
@@ -2120,13 +2143,15 @@
                                     },
                                     {
                                         "_key": "class",
-                                        "_value": "",
+                                        "_value": [
+                                            "font1em"
+                                        ],
                                         "_type": "dav",
                                         "_attrDef": "p"
                                     },
                                     {
                                         "_key": "IconName",
-                                        "_value": "home",
+                                        "_value": "place",
                                         "_type": "a",
                                         "_attrDef": "p",
                                         "_useAsLabel": true
@@ -2416,7 +2441,7 @@
                                         },
                                         {
                                             "_key": "html",
-                                            "_value": "location",
+                                            "_value": "Find destination",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         }
@@ -2756,7 +2781,7 @@
                                         },
                                         {
                                             "_key": "html",
-                                            "_value": "location",
+                                            "_value": "Budget",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         }
@@ -2776,13 +2801,15 @@
                                     },
                                     {
                                         "_key": "class",
-                                        "_value": "",
+                                        "_value": [
+                                            "font1em"
+                                        ],
                                         "_type": "dav",
                                         "_attrDef": "p"
                                     },
                                     {
                                         "_key": "IconName",
-                                        "_value": "home",
+                                        "_value": "local_offer",
                                         "_type": "a",
                                         "_attrDef": "p",
                                         "_useAsLabel": true
@@ -3072,7 +3099,7 @@
                                         },
                                         {
                                             "_key": "html",
-                                            "_value": "location",
+                                            "_value": "Choose your budget",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         }
@@ -3412,7 +3439,7 @@
                                         },
                                         {
                                             "_key": "html",
-                                            "_value": "location",
+                                            "_value": "Type of home",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         }
@@ -3432,7 +3459,9 @@
                                     },
                                     {
                                         "_key": "class",
-                                        "_value": "",
+                                        "_value": [
+                                            "font1em"
+                                        ],
                                         "_type": "dav",
                                         "_attrDef": "p"
                                     },
@@ -3728,7 +3757,7 @@
                                         },
                                         {
                                             "_key": "html",
-                                            "_value": "location",
+                                            "_value": "Apartment",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         }

@@ -1,22 +1,16 @@
 <div fxLayout="column wrap" class="padding60 width100" fxLayoutGap="1em" fxLayoutAlign="center center" [fxShow]="true">
   <div fxLayout="row wrap" class="width70" fxLayoutAlign="space-between center" [fxShow]="true">
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
-    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/backgroundImage.jpg" class="peoplesImages"></div>
+    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let images of page.section5.images"><img imgSrc="{{images}}" class="peoplesImages"></div>
   </div>
   <h2 class="fontSize2em textAlignCenter witdth50">
-    Trusted by over 150+ organziations in more than 50 countries</h2>
+    <!-- Trusted by over 150+ organziations in more than  50 countries -->{{page.section5.heading}}
+  </h2>
   <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true">
-    <mat-icon class="qoutesIcon font3em">format_quote</mat-icon>
+    <mat-icon class="qoutesIcon font3em">{{page.section5.icon}}</mat-icon>
   </div>
   <p class="witdth50 textAlignCenter">
-    . It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    {{page.section5.paragraph}}
+  </p>
   <div>
     Jonh Leon - CO Founder of <span>Veeza</span></div>
 </div>

@@ -46,6 +46,27 @@
         "x": 180,
         "y": 30,
         "wires": [
+            [
+                "sd_Yw0PiPEbNBYbgbMG"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_Yw0PiPEbNBYbgbMG",
+        "type": "Script",
+        "z": "sd_EQmAbTMpm9EWHuWM",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.section3={\n        \"image\":\"/Web/Images/house4.jpg\",\n         \"heading\":\"Enhance you interior through design\",\n         \"paragraph\":\"but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\n         \"largeImage\":\"/Web/Images/backgroundImage.jpg\"\n\n    }",
+        "functionName": "sd_Yw0PiPEbNBYbgbMG",
+        "category": "Function",
+        "x": 300,
+        "y": 40,
+        "wires": [
             []
         ],
         "__n_excludedFromValidation__": {},

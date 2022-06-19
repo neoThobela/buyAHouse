@@ -209,7 +209,7 @@
                         },
                         {
                             "_key": "imgSrc",
-                            "_value": "/Web/Images/backgroundImage.jpg",
+                            "_value": "{{page.section3.image}}",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -520,7 +520,7 @@
                             },
                             {
                                 "_key": "html",
-                                "_value": "Enhance you interior through design",
+                                "_value": "{{page.section3.heading}}",
                                 "_type": "a",
                                 "_attrDef": "p"
                             }
@@ -809,6 +809,7 @@
             "649556aa-3b90-3c53-9de3-88f81d88ee2b": {
                 "paletteKey": "NG-image",
                 "parentEditorKey": "d89773a8-9937-91de-c589-2c69d3c72905",
+                "isCommented": "false",
                 "commentid": null,
                 "designerReference": [
                     {
