@@ -9,7 +9,8 @@ $white:white;
 $black:black;
 $backgroundWhite:#f8f9fd;
 $gray:#8e8e90;
-
+$footerGrayText:#575757;
+$footerGray:#333;
 *{
 font-family: 'Varela Round', sans-serif;
     margin:0;
@@ -63,8 +64,11 @@ body{
 .fontBold{
     font-weight: bold;
 }
+.padding29{
+    padding:10px;
+}
 .backgroundImage{
-    background-image: url("https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/small-house-on-lake-photo-6684-38e69e490e2785e462f0b1621a3d8749@1x.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2017/04/11/03/33/dinant-2220459_960_720.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 padding:10px 20px 77px 10px;
@@ -125,4 +129,8 @@ font-size:2em;
 }
 .font25em{
     font-size:2.5em;
+}
+.footer{
+    background-color: $footerGray;
+    color:$footerGrayText;
 }

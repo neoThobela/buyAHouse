@@ -69,7 +69,7 @@
         "viewType": "common",
         "nodeType": "flow",
         "name": "",
-        "script": "page.section1=[\"About\", \"Services\",\"Project\", \"Contact\"]",
+        "script": "// page.section1=[\"About\", \"Services\",\"Project\", \"Contact\"]\n page.section1=[{\n        \"logo\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"navItems\":[\"About\", \"Services\",\"Project\", \"Contact\"],\n        \"backgroundImage\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"heading\":\"loremwehfuewuf\",\n        \"content\":\"hfhwhfkwe hfewfewkfk\",\n        \"belowContent\":\"ufehhwefk efiejwkf fjewijf\"\n    }\n    ]",
         "functionName": "sd_5vvzY8l1OW8XTjPi",
         "category": "Function",
         "x": 320,

@@ -11,6 +11,7 @@
         "redBtn",
         "mat-button",
         "fontBold",
+        "padding29",
         "backgroundImage",
         "qoutesIcon",
         "padding60",
@@ -27,6 +28,7 @@
         "paddingall80",
         "width100",
         "padding49",
-        "font25em"
+        "font25em",
+        "footer"
     ]
 }

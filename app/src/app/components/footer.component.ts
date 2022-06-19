@@ -15,13 +15,13 @@ import { __NEU_ServiceInvokerService__ } from 'app/n-services/service-caller.ser
 //append_imports_end
 
 @Component({
-  selector: 'bh-Section1',
-  templateUrl: './Section1.template.html',
+  selector: 'bh-footer',
+  templateUrl: './footer.template.html',
   providers: [
     //appendnew_element_providers
   ],
 })
-export class Section1Component {
+export class footerComponent {
   page: any = { dep: {} };
   constructor(
     private __page_injector__: Injector,
@@ -38,7 +38,7 @@ export class Section1Component {
       .get(SDPageCommonService)
       .constructFlowObject(this);
     {
-      this.sd_vIF1IKzk91V04Q0n(bh);
+      this.sd_cneWIdByaO1OtW6Z(bh);
     }
   }
 
@@ -50,47 +50,24 @@ export class Section1Component {
     //append_listeners
   }
 
-  sd_vIF1IKzk91V04Q0n(bh) {
+  sd_cneWIdByaO1OtW6Z(bh) {
     try {
-      bh = this.sd_p3lm6lMv2BCPhBUc(bh);
-      //appendnew_next_sd_vIF1IKzk91V04Q0n
+      bh = this.sd_zx8mYRWiUZsA6pfE(bh);
+      //appendnew_next_sd_cneWIdByaO1OtW6Z
       return bh;
     } catch (e) {
-      return this.errorHandler(bh, e, 'sd_vIF1IKzk91V04Q0n');
+      return this.errorHandler(bh, e, 'sd_cneWIdByaO1OtW6Z');
     }
   }
 
-  //appendnew_flow_Section1Component_start
+  //appendnew_flow_footerComponent_start
 
-  sd_p3lm6lMv2BCPhBUc(bh) {
+  sd_zx8mYRWiUZsA6pfE(bh) {
     try {
-      this.page.section1 = [];
-      bh = this.sd_5vvzY8l1OW8XTjPi(bh);
-      //appendnew_next_sd_p3lm6lMv2BCPhBUc
+      //appendnew_next_sd_zx8mYRWiUZsA6pfE
       return bh;
     } catch (e) {
-      return this.errorHandler(bh, e, 'sd_p3lm6lMv2BCPhBUc');
-    }
-  }
-
-  sd_5vvzY8l1OW8XTjPi(bh) {
-    try {
-      const page = this.page; // page.section1=["About", "Services","Project", "Contact"]
-      page.section1 = [
-        {
-          logo: 'https://linkedinreplication.web.app/assets/Web/Images/post.jpg',
-          navItems: ['About', 'Services', 'Project', 'Contact'],
-          backgroundImage:
-            'https://linkedinreplication.web.app/assets/Web/Images/post.jpg',
-          heading: 'loremwehfuewuf',
-          content: 'hfhwhfkwe hfewfewkfk',
-          belowContent: 'ufehhwefk efiejwkf fjewijf',
-        },
-      ];
-      //appendnew_next_sd_5vvzY8l1OW8XTjPi
-      return bh;
-    } catch (e) {
-      return this.errorHandler(bh, e, 'sd_5vvzY8l1OW8XTjPi');
+      return this.errorHandler(bh, e, 'sd_zx8mYRWiUZsA6pfE');
     }
   }
 
@@ -116,5 +93,5 @@ export class Section1Component {
       throw e;
     }
   }
-  //appendnew_flow_Section1Component_Catch
+  //appendnew_flow_footerComponent_Catch
 }
